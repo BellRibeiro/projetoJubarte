@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+   background-image: linear-gradient(to right, #23fae4, #03887a); 
+}
+
+main{
+    background-color: white;
+    width:600;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #00635A;
+    padding: 10px;
+    margin: 12%; /*centralizar*/
+}
+
+
+#titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 15vw;  
+    border-radius: 5px;
+}
+
+h1{
+    color:#00635A ;
+    text-align: center;
+  
+}
+h2{
+   color: #32a79b;
+}
+p {
+    text-align: justify;
+}
+
